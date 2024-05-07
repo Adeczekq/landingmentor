@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-5xl font-bold;
+  }
+}
+@layer components {
+  .hero-con {
+    max-width: 457px;
+    min-width: 343px;
+  }
+}
+body {
+  overflow-x: hidden;
+}
+.height-70vh {
+  height: 70vh;
+}
+.height-30vh {
+  height: 30vh;
+}
+.pos-hero {
+  z-index: -1;
+  top: -100px;
+  right: -300px;
+}
+.pos-hero-mobile {
+  top: 0;
+  right: 0;
+}
+.panel {
+  max-width: 350px;
+  height: 322px;
+}
+
+.item {
+  min-width: 350px;
+  min-height: 346px;
+}
+.icon {
+  margin-top: -28px;
+}
+.item-con {
+  min-width: 286px;
+  height: 218px;
+}
